@@ -41,4 +41,13 @@ nav #Account li {
 }
 nav #Account li :nth-child(1) {
   margin-left: 22px;
+}
+
+#block {
+  background-image: url(./Assets/hero-banner\ 2.svg);
+  width: 1680px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 46px;
 }/*# sourceMappingURL=index.css.map */

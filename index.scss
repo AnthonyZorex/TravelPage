@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Noto Serif', serif;
+
 }
 nav{
     justify-content: center;
@@ -41,4 +42,12 @@ nav{
         }
        
     }
+}
+#block{
+    background-image: url(./Assets/hero-banner\ 2.svg);
+    width: 1680px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
 }
