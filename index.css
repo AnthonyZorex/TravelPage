@@ -1,4 +1,44 @@
 *, html, body {
   margin: 0px;
   padding: 0px;
+  font-family: "Noto Serif", serif;
+}
+
+nav {
+  justify-content: center;
+  padding-top: 39px;
+  display: flex;
+}
+nav #navigate {
+  padding-top: 5px;
+  /*  padding-bottom: 46px; */
+  margin-left: 450px;
+  display: flex;
+  gap: 30px;
+}
+nav #navigate li {
+  list-style: none;
+}
+nav h1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #2C2C2C;
+  fill: #0E151C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+nav #Account {
+  padding-top: 5px;
+  margin-left: 437px;
+  display: flex;
+  gap: 13px;
+}
+nav #Account li {
+  list-style: none;
+}
+nav #Account li :nth-child(1) {
+  margin-left: 22px;
 }/*# sourceMappingURL=index.css.map */
