@@ -50,4 +50,182 @@ nav #Account li :nth-child(1) {
   margin-left: auto;
   margin-right: auto;
   margin-top: 46px;
+}
+#block h1 {
+  padding-top: 285px;
+  color: #2C2C2C;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112px;
+  width: 804px;
+  padding-left: 135px;
+}
+#block button {
+  padding: 18px 36.5px 18px 36.5px;
+  margin-left: 135px;
+  background: #FF715B;
+  border: none;
+  margin-top: 50px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 360px 1185px;
+  grid-column-gap: 135px;
+  justify-content: center;
+}
+
+#block2 {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+}
+#block2 hr {
+  width: 234px;
+  height: 2px;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-right: 30px;
+}
+#block2 h1 {
+  color: #FF715B;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#block3 {
+  width: 1185px;
+  height: 154px;
+  background: #FFF;
+  box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
+  margin-top: -78px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+#block3 #content {
+  display: flex;
+}
+#block3 #content div {
+  margin-top: 45px;
+  margin-left: 45px;
+}
+#block3 #content div h3 {
+  color: #A79997;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+#block3 #content div select {
+  width: 240px;
+  background: transparent;
+  border: none;
+  color: #FF715B;
+  outline: none;
+  color: #FF715B;
+  font-size: 18px;
+  background: transparent;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  box-shadow: 0px 1px 0px 0px #F5EBE9;
+}
+#block3 #content div select option {
+  color: #FF715B;
+  font-size: 18px;
+  background: transparent;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#block3 #content div input {
+  width: 240px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 1px 0px 0px #F5EBE9;
+  background: none;
+  color: #FF715B;
+  font-size: 18px;
+  background: transparent;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#block3 #content div input::-moz-placeholder {
+  color: #FF715B;
+}
+#block3 #content div input::placeholder {
+  color: #FF715B;
+}
+#block3 #content div input ::-webkit-calendar-picker-indicator {
+  color: #FF715B;
+}
+#block3 #content div button {
+  padding: 20px 36.5px 20px 36.5px;
+  background: #FF715B;
+  border: none;
+  color: #FFF;
+  margin-left: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#block4 {
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: repeat(4, 326px);
+  margin-left: auto;
+  margin-right: auto;
+}
+#block4 #main {
+  margin-left: 40%;
+  display: flex;
+}
+#block4 div {
+  text-align: center;
+  background: #F8F8F8;
+  width: 326px;
+  height: 326px;
+  margin-left: 30px;
+  flex-shrink: 0;
+}
+#block4 div img {
+  height: 128px;
+  margin-top: 40px;
+  width: 128px;
+}
+#block4 div h1 {
+  margin-top: 10px;
+  color: #2C2C2C;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#block4 div h3 {
+  color: #A79997;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 20px;
+  padding-left: 36px;
+  padding-right: 40px;
+  font-weight: 400;
+  line-height: 26px;
 }/*# sourceMappingURL=index.css.map */
