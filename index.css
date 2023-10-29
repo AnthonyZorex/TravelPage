@@ -196,7 +196,11 @@ nav #Account li :nth-child(1) {
   margin-left: 40%;
   display: flex;
 }
-#block4 div {
+#block4 #main div:hover {
+  background: #fff;
+  box-shadow: 0px 1px 30px 1px #A79997;
+}
+#block4 #main div {
   text-align: center;
   background: #F8F8F8;
   width: 326px;
@@ -204,12 +208,12 @@ nav #Account li :nth-child(1) {
   margin-left: 30px;
   flex-shrink: 0;
 }
-#block4 div img {
+#block4 #main div img {
   height: 128px;
   margin-top: 40px;
   width: 128px;
 }
-#block4 div h1 {
+#block4 #main div h1 {
   margin-top: 10px;
   color: #2C2C2C;
   text-align: center;
@@ -218,7 +222,7 @@ nav #Account li :nth-child(1) {
   font-weight: 700;
   line-height: normal;
 }
-#block4 div h3 {
+#block4 #main div h3 {
   color: #A79997;
   text-align: center;
   font-size: 18px;
@@ -228,4 +232,81 @@ nav #Account li :nth-child(1) {
   padding-right: 40px;
   font-weight: 400;
   line-height: 26px;
+}
+
+#block5 {
+  margin-top: 270px;
+  justify-content: center;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-right: auto;
+}
+#block5 #content {
+  display: flex;
+}
+#block5 #content div {
+  width: auto;
+  margin-left: 30px;
+}
+#block5 #content div img::after {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 47.69%, rgba(0, 0, 0, 0.8) 100%);
+}
+#block5 #content div button {
+  background: #FF715B;
+  padding: 20px 34px 20px 34px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 60px;
+}
+#block5 #content div h2 {
+  margin-top: -60px;
+  margin-left: 30px;
+  color: #FFF;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#block5 #content div h1 {
+  max-width: 420px;
+  color: #2C2C2C;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#block5 #content div h1 span {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #FF715B;
+}
+#block5 #content div p {
+  max-width: 420px;
+  color: #A79997;
+  margin-top: 40px;
+  font-family: "Product Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding-right: 45px;
+  line-height: 26px;
+}
+
+#foneBlock {
+  display: block;
+  z-index: -1;
+  margin-left: -525px;
+  margin-top: -100px;
+  background-color: #F6F6F6;
+  width: 789px;
+  height: 580px;
 }/*# sourceMappingURL=index.css.map */
