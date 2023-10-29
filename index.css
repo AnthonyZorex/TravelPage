@@ -302,11 +302,126 @@ nav #Account li :nth-child(1) {
 }
 
 #foneBlock {
-  display: block;
   z-index: -1;
-  margin-left: -525px;
-  margin-top: -100px;
+  margin-top: -490px;
+  margin-left: 1300px;
   background-color: #F6F6F6;
   width: 789px;
   height: 580px;
+  display: block;
+}
+
+#block6 {
+  display: grid;
+  grid-template-columns: 770px 690px;
+  justify-content: center;
+  margin-top: 180px;
+}
+#block6 #container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+#block6 #container div {
+  width: 690px;
+}
+#block6 #container div #item1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 89px;
+}
+#block6 #container div #icon2 div {
+  border-radius: 10px;
+  background: #EDFAE3;
+  width: 50px;
+  height: 50px;
+}
+#block6 #container div #icon2 img {
+  margin-top: 12px;
+  margin-left: 13px;
+}
+#block6 #container div #icon3 div {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  background: #FFF8E3;
+}
+#block6 #container div #icon3 img {
+  margin-top: 12px;
+  margin-left: 13px;
+}
+#block6 #container div #icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #FF715B;
+  box-shadow: 0px 10px 15px 0px rgba(255, 113, 91, 0.25);
+}
+#block6 #container div #icon #img1 {
+  margin-left: 20px;
+  padding-top: 10px;
+  display: block;
+}
+#block6 #container div #icon #img2 {
+  margin-left: 14px;
+  margin-top: 2px;
+  display: block;
+}
+#block6 #container div hr {
+  width: 600px;
+  height: 1px;
+  background: #F1E0DD;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+#block6 #container div h1 {
+  color: #2C2C2C;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#block6 #container div h2 {
+  margin-left: -610px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#block6 #container div p {
+  color: #A79997;
+  margin-left: 80px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+#block6 #container div svg {
+  position: absolute;
+  margin-left: -650px;
+  z-index: -1;
+  margin-top: 600px;
+}
+#block6 #container div img {
+  z-index: 999;
+}
+#block6 #container div #block {
+  background: #FFCA45;
+  width: 142px;
+  margin-left: 483px;
+  height: 142px;
+  border-radius: 12px;
+  position: absolute;
+  z-index: -1;
+  margin-top: -755px;
+}
+#block6 #container div #elips {
+  width: 54px;
+  height: 54px;
+  border-radius: 80px;
+  margin-top: -360px;
+  margin-left: -155px;
+  position: absolute;
+  border: 8px solid #FF5B65;
 }/*# sourceMappingURL=index.css.map */
